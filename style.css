@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+    min-height: 100vh;
+    background-image: url(./assets/bg-main-mobile.png);
+}
+#logo{
+    width: 146px;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+#mainIntro{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -0.455px;
+    margin: 64px 0px 0px 24px;
+}
+#mainIntro p{    
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-top: 24px;
+    width: 95%;
+}
+#phone {
+    display: flex;
+    align-self: center;
+    width: 208px;
+    margin-top: 28px;
+    position: absolute; 
+    z-index: 0; 
+}
+#phoneBack {
+    background: #191826;
+    width: 100%;
+    min-height: 600px;
+    position: relative; 
+    z-index:-1; 
+    margin-top: 166px;
+    border-radius: 12px 12px 0px 0px;
+    background-image: url(./assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-size: 85%; 
+    background-position: top;
+}
+#phoneMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#subscription{
+    width: 100%;
+    height: 546px;
+    z-index: 0;
+    border-radius: 12px;
+    background: #FA7453;
+    margin-top: 90%;
+}
+#premDesc{
+    position: absolute;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 48px;
+    margin-left: 36px;
+}
+#premDesc span{
+    display: block;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 302px;
+    line-height: 28px;
+    margin-top: 12px;
+}
+#cost{
+    position: absolute;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 276px;
+    margin-left: 42px;
+}
+#cost span{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+#downloadBox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 360px;
+    width: 100%;
+}
+.download{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 16px;
+    min-height: 61px;
+}
+.apple{
+    border-radius: 12px;
+    background: #191826;    
+    width: 296px;
+}
+.android{
+    border-radius: 12px;
+    background: #FCFAF9;
+    width: 296px;
+}
+#iosDownload{
+    margin-left: 7px;
+    color: #FCFAF9;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+#androidDownload{
+    margin-left: 7px;
+    color: #191826;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+#copyrightLogo{
+    margin-top: 63px;
+    width: 142px;
+}
+#copyright{
+    margin-top: 1500px;
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    width: 100%;
+    border-top: white 1px solid;
+    border-radius: -12px;
+}
+#bottomLogo{
+    margin-top: 63px;
+    width: 180px;
+    margin-left: 24px;
+}
+#bottomTxt{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+#bottomTxt span{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
